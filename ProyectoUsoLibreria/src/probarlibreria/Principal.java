@@ -67,7 +67,7 @@ public class Principal extends javax.swing.JFrame {
             }
         });
 
-        cmboMoneda.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Peso(MXM)", "Yen", "Dolar", "" }));
+        cmboMoneda.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Peso(MXM)", "Yen", "Dolar" }));
         cmboMoneda.setToolTipText("");
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
