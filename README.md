@@ -4,7 +4,7 @@ Descripción general: Libreria que ofrece conjunto de clases diseñadas para cal
 # Indice
 - [Explicación del código](#Explicación_del_codigo)
 - [Instrucciones para importar el .jar](#Instrucciones_para_importar_el_.jar)
-- [Video Explicativo](#Video_Explicativo)
+- [Video Explicativo](#Video_Explicativo) 
 - [Autores](#Autores)
 
 # Explicación del codigo
@@ -371,7 +371,7 @@ JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAG
 ```
 
 
-## Clase Descuentos
+## Clase FormatoPrecios
 La clase formatea precios para mostrar valores monetarios de una manera adecuada, además de permitir redondear precios a un número específico de decimales. Está diseñada para asegurar que los precios se muestren de manera clara y profesional
 
 ### Métodos
@@ -392,6 +392,64 @@ public static double redondearPrecio(double precio, int decimales) {
 
 --decimales: La cantidad de decimales a la que se desea redondear el precio
 ##### _Valor de retorno_: 
+
 El precio redondeado al número de decimales especificado, o -1 en caso de un error.
 ##### _Explicación_:
-1.-Verifica que el precio  sea mayor que cero y que la cantidad de decimales no sea negativa. Si alguna de estas condiciones no se cumple, se muestra un mensaje de error a través del método mostrarError() y el método retorna -1 para indicar un error
+1.-Verifica que el precio  sea mayor que cero y que la cantidad de decimales no sea negativa. 
+```java
+if (decimales < 0 || precio <= 0) {
+```
+2.-Si alguna de estas condiciones no se cumple, se muestra un mensaje de error a través del método mostrarError() y el método retorna -1 para indicar un error.
+```java
+mostrarError("Datos inválidos: Precio > 0 y decimales >= 0");
+return -1;
+```
+3.-Calcula un factor de multiplicación basado en el número de decimales.
+```java
+double factor = Math.pow(10, decimales);
+```
+3.-Multiplica el precio por el factor, redondea el resultado usando Math.round(), y luego lo divide nuevamente por el factor para obtener el valor redondeado.
+```java
+return Math.round(precio * factor) / factor;
+```
+
+#### formatearPrecio()
+```java
+public static String formatearPrecio(double precio) {
+        if (precio <= 0) {
+            return "$0.00";
+        }
+        DecimalFormat df = new DecimalFormat("$#0.00");
+        return df.format(precio);
+    }
+```
+##### _Parámetros_:
+--precio: El precio que se desea redondear.
+##### _Valor de retorno_: 
+Una cadena con el precio formateado en formato monetario.
+##### _Explicación_:
+1.-Si el precio es menor o igual a cero, devuelve una cadena "$0.00", asegurando que los precios negativos o nulos no se muestren de forma incorrecta.
+```java
+if (precio <= 0) {
+        return "$0.00";
+}
+```
+2.-Si el precio es mayor que cero, utiliza la clase DecimalFormat con el patrón "$#0.00" para formatear el precio.
+```java
+DecimalFormat df = new DecimalFormat("$#0.00");
+return df.format(precio);
+```
+
+#### mostrarError()
+```java
+private static void mostrarError(String mensaje) {
+        JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAGE);
+    }
+```
+##### _Parámetros_:
+--mensaje: El mensaje que se mostrará en la ventana de error.
+##### _Explicación_:
+1.-Muestra un mensaje de advertencia al usuario utilizando una ventana emergente (JOptionPane), indicando que ocurrió un error con el valor ingresado
+```java
+JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAGE);
+```
