@@ -9,11 +9,12 @@ Descripción general: Libreria que ofrece conjunto de clases diseñadas para cal
 - [Video Explicativo](#Video_Explicativo) 
 
 # Autores
--- Rodriguez Juarez Jose Daniel
--- Alonso Heredia Miguel Alberto
+-- _Rodriguez Juarez Jose Daniel_
+
+-- _Alonso Heredia Miguel Alberto_
 
 # Explicación general
-
+Libreria que ofrece conjunto de clases diseñadas para calcular precios finales en operaciones de venta, incluyendo conversión de moneda, aplicación de impuestos, descuentos porcentuales o fijos, y formateo de precios. Su proposito es ofrecer herramientas para realizar operaciones de cálculo económico, ya sea para aplicar impuestos, descuentos y realizar conversiones de moneda de manera sencilla
 
 # Explicación del codigo
 
