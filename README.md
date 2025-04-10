@@ -178,13 +178,13 @@ Toma los valores de la conversión la cantidad original, la moneda de origen, el
 ```java
 public String formatearConversion(double cantidad, String monedaOrigen, double resultado, String monedaDestino) {}
 ```
---cantidad:  Es la cantidad de dinero original que se va a convertir.
+--_cantidad_:  Es la cantidad de dinero original que se va a convertir.
 
---monedaOrigen: Es la moneda de la que se está convirtiendo (por ejemplo, "USD", "EUR", "MXM").
+--_monedaOrigen_: Es la moneda de la que se está convirtiendo (por ejemplo, "USD", "EUR", "MXM").
 
---resultado: Es el valor convertido de la cantidad en la moneda de destino.
+--_resultado_: Es el valor convertido de la cantidad en la moneda de destino.
 
---monedaDestino: Es la moneda a la que se ha convertido la cantidad (por ejemplo, "MXN", "EUR", "USD").
+--_monedaDestino_: Es la moneda a la que se ha convertido la cantidad (por ejemplo, "MXN", "EUR", "USD").
 
 ##### _Valor de retorno_:
 Una cadena de texto que representa la conversión con el formato adecuado.
