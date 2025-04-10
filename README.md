@@ -6,7 +6,7 @@ Descripción general: Libreria que ofrece conjunto de clases diseñadas para cal
 - [Explicación general](#Explicación_general)
 - [Explicación del código](#Explicación_del_codigo)
 - [Instrucciones para importar el .jar](#Instrucciones_para_importar_el_.jar)
-- [Video Explicativo](#Video_Explicativo) 
+- [Video explicativo](#Video_explicativo) 
 
 # Autores
 -- _Rodriguez Juarez Jose Daniel_
@@ -477,3 +477,7 @@ JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAG
 ![Paso5](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/562183e7e39a427eb45c7242d6e8ba53f35dd28e/Capturas_TAP/PASO5.png)
 ### 6.-La librería aparecerá en Libraries y podrás usarla en tu código.
 ![Paso6](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/91adb5086b180f8b7e0be33cf513cd8e9da00872/Capturas_TAP/PASO6.png)
+
+
+# Video explicativo
+https://youtu.be/sV3DwpjnmkQ?si=bDAftGUWOCSwFWVJ
