@@ -465,6 +465,6 @@ JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAG
 ### 4.-Busca el archivo .jar que descargaste y seleccionalo.
 ![Paso4](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/42f53af457286a261fbb599948cd023542cd68b7/Capturas_TAP/PASO4.png)
 ### 5.-Haz clic en "Open".
-![Paso5]()
+![Paso5](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/562183e7e39a427eb45c7242d6e8ba53f35dd28e/Capturas_TAP/PASO5.png)
 ### 6.-La librería aparecerá en Libraries y podrás usarla en tu código.
-![]()
+![Paso6]()
