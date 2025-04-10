@@ -2,10 +2,10 @@
 
 # Indice
 - [Autores](#Autores)
-- [Explicación general](#Explicación_general)
-- [Explicación del código](#Explicación_del_codigo)
-- [Instrucciones para importar el .jar](#Instrucciones_para_importar_el_.jar)
-- [Video explicativo](#Video_explicativo) 
+- [Explicación general](#Explicación-general)
+- [Explicación del codigo](#Explicación-del-codigo)
+- [Instrucciones para importar el .jar](#Instrucciones-para-importar-el-jar)
+- [Video explicativo](#Video-explicativo) 
 
 # Autores
 -- _Rodriguez Juarez Jose Daniel_
@@ -462,7 +462,7 @@ private static void mostrarError(String mensaje) {
 JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAGE);
 ```
 
-# Instrucciones para importar el .jar
+# Instrucciones para importar el jar
 
 ### 1.-Abre tu proyecto en NetBeans.
 ![Paso1](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/c31a7777a8af7a13852dc431ca77a7d51f02c7ea/Capturas_TAP/PASO1.png)
