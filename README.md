@@ -132,11 +132,11 @@ public double convertir(double cantidad, String monedaOrigen, String monedaDesti
 ```java
 public double convertir(double cantidad, String monedaOrigen, String monedaDestino) {}
 ```
---cantidad: Es cantidad de dinero que se quiere convertir.
+--_cantidad_: Es cantidad de dinero que se quiere convertir.
 
---monedaOrigen: Es el código de la moneda de la que se desea convertir (por ejemplo, dolar("USD"), euro("EUR"), peso mexicano("MXN")).
+--_monedaOrigen:_ Es el código de la moneda de la que se desea convertir (por ejemplo, dolar("USD"), euro("EUR"), peso mexicano("MXN")).
 
---monedaDestino: El código de la moneda a la que se desea convertir (por ejemplo, "MXN", "EUR", "USD").
+--_monedaDestino_: El código de la moneda a la que se desea convertir (por ejemplo, "MXN", "EUR", "USD").
 
 ##### _Valor de retorno_: 
 Un valor double que representa la cantidad convertida, o -1 en caso de error.
@@ -219,9 +219,9 @@ public static double calcularPorcentajeDescuento(double precioOG, double porcDes
 ```java
 public static double calcularPorcentajeDescuento(double precioOG, double porcDescuento){}
 ```
---precioOG: Precio original del producto o servicio.
+--_precioOG_: Precio original del producto o servicio.
 
---porcDescuento: Porcentaje de descuento a aplicar.
+--_porcDescuento_: Porcentaje de descuento a aplicar.
 
 ##### _Valor de retorno_: 
 Un valor double que representa la cantidad convertida, o -1 en caso de error.
@@ -248,7 +248,7 @@ return precioOG - (precioOG * porcDescuento / 100);
     }
 ```
 ##### _Parámetros_:
---descuento: Porcentaje de descuento a aplicar
+--_descuento_: Porcentaje de descuento a aplicar
 ##### _Valor de retorno_: 
 --true si el descuento está entre 0 y 100.
 
@@ -267,7 +267,7 @@ return precioOG - (precioOG * porcDescuento / 100);
     }
 ```
 ##### _Parámetros_:
---precio: Valor del precio a ingresar.
+--_precio_: Valor del precio a ingresar.
 ##### _Valor de retorno_: 
 --true si el precio es mayor que cero.
 
@@ -285,7 +285,7 @@ return precioOG - (precioOG * porcDescuento / 100);
     }
 ```
 ##### _Parámetros_:
---precio: Valor del precio a ingresar.
+--_precio_: Valor del precio a ingresar.
 ##### _Valor de retorno_: 
 --true si el precio es mayor que cero.
 
@@ -303,14 +303,13 @@ return precioOG - (precioOG * porcDescuento / 100);
 }
 ```
 ##### _Parámetros_:
---mensaje: El mensaje que se desea mostrar en la ventana de advertencia.
+--_mensaje_: El mensaje que se desea mostrar en la ventana de advertencia.
 
 ##### _Explicación_:
 1.-Muestra un mensaje de error al usuario en una ventana emergente. Se usa para mostrar advertencias o errores específicos relacionados con la aplicación.
 ```java
   JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAGE);
 ```
-
 
 ## Clase Impuestos
 La clase calcula el precio final de un producto o servicio después de aplicar un impuesto. Además, valida que el porcentaje del impuesto sea un valor válido entre 0 y 100. Si el porcentaje del impuesto no es válido, muestra un mensaje de advertencia al usuario.
@@ -327,9 +326,9 @@ public static double agregarImpuesto(double subtotal, double porcImp) {
     }
 ```
 ##### _Parámetros_:
---subtotal: El precio base o subtotal de los productos, sin impuestos.
+--_subtotal_: El precio base o subtotal de los productos, sin impuestos.
 
---porcImp: El porcentaje de impuesto que se desea aplicar.
+--_porcImp_: El porcentaje de impuesto que se desea aplicar.
 ##### _Valor de retorno_: 
 El precio final después de aplicar el impuesto.
 ##### _Explicación_:
@@ -353,7 +352,7 @@ private static boolean validarPorcentaje(double porcentaje) {
     }
 ```
 ##### _Parámetros_:
---porcentaje: El porcentaje de impuesto que se desea aplicar.
+--_porcentaje_: El porcentaje de impuesto que se desea aplicar.
 ##### _Valor de retorno_: 
 --true si el porcentaje está dentro del rango de 0 a 100.
 
@@ -371,7 +370,7 @@ private static void mostrarError(String mensaje) {
     }
 ```
 ##### _Parámetros_:
---mensaje: El mensaje que se mostrará en la ventana de error.
+--_mensaje_: El mensaje que se mostrará en la ventana de error.
 ##### _Explicación_:
 1.-Muestra un mensaje de advertencia al usuario utilizando una ventana emergente (JOptionPane), indicando que ocurrió un error con el valor ingresado
 ```java
@@ -396,9 +395,9 @@ public static double redondearPrecio(double precio, int decimales) {
     }
 ```
 ##### _Parámetros_:
---precio: El precio que se desea redondear.
+--_precio_: El precio que se desea redondear.
 
---decimales: La cantidad de decimales a la que se desea redondear el precio
+--_decimales_: La cantidad de decimales a la que se desea redondear el precio
 ##### _Valor de retorno_: 
 
 El precio redondeado al número de decimales especificado, o -1 en caso de un error.
@@ -432,7 +431,7 @@ public static String formatearPrecio(double precio) {
     }
 ```
 ##### _Parámetros_:
---precio: El precio que se desea redondear.
+--_precio_: El precio que se desea redondear.
 ##### _Valor de retorno_: 
 Una cadena con el precio formateado en formato monetario.
 ##### _Explicación_:
@@ -455,7 +454,7 @@ private static void mostrarError(String mensaje) {
     }
 ```
 ##### _Parámetros_:
---mensaje: El mensaje que se mostrará en la ventana de error.
+--_mensaje_: El mensaje que se mostrará en la ventana de error.
 ##### _Explicación_:
 1.-Muestra un mensaje de advertencia al usuario utilizando una ventana emergente (JOptionPane), indicando que ocurrió un error con el valor ingresado
 ```java
