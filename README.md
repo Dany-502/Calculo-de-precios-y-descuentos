@@ -459,7 +459,7 @@ JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAG
 ### 1.-Abre tu proyecto en NetBeans.
 ![Paso1](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/c31a7777a8af7a13852dc431ca77a7d51f02c7ea/Capturas_TAP/PASO1.png)
 ### 2.-Haz clic derecho en la carpeta Libraries (dentro de tu proyecto en el panel Projects).
-![]()
+![Paso2](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/401deeebfca0d3fbfda00147262ea2b5f36d4476/Capturas_TAP/PASO2.png)
 ### 3.-Selecciona "Add JAR/Folder...", deberá abrirte la siguiente ventana:
 ![]()
 ### 4.-Busca el archivo .jar que descargaste y seleccionalo.
