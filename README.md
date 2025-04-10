@@ -9,7 +9,8 @@ Descripción general: Libreria que ofrece conjunto de clases diseñadas para cal
 - [Video Explicativo](#Video_Explicativo) 
 
 # Autores
-
+-- Rodriguez Juarez Jose Daniel
+-- Alonso Heredia Miguel Alberto
 
 # Explicación general
 
