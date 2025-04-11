@@ -24,8 +24,6 @@ Libreria que ofrece conjunto de clases diseñadas para calcular precios finales 
 
 3.- Conexión a internet.
 
-4.- Agregar la libreria JSON a la libreria de calculos.
-
 # Explicación del codigo
 
 ## Clase Conversor
@@ -472,7 +470,7 @@ private static void mostrarError(String mensaje) {
 JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAGE);
 ```
 
-# Instrucciones para importar el jar
+# Instrucciones para importar el jar y el JSON
 
 ### 1.-Abre tu proyecto en NetBeans.
 ![Paso1](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/c31a7777a8af7a13852dc431ca77a7d51f02c7ea/Capturas_TAP/PASO1.png)
@@ -480,11 +478,11 @@ JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAG
 ![Paso2](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/401deeebfca0d3fbfda00147262ea2b5f36d4476/Capturas_TAP/PASO2.png)
 ### 3.-Selecciona "Add JAR/Folder...", deberá abrirte la siguiente ventana:
 ![Paso3](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/452eb9f0da747fad675504b3c83678ce70625acc/Capturas_TAP/PASO3.png)
-### 4.-Busca el archivo .jar que descargaste y seleccionalo.
+### 4.-Busca el archivo .jar y el archivo JSON que descargaste y seleccionalo.
 ![Paso4](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/42f53af457286a261fbb599948cd023542cd68b7/Capturas_TAP/PASO4.png)
 ### 5.-Haz clic en "Open".
 ![Paso5](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/562183e7e39a427eb45c7242d6e8ba53f35dd28e/Capturas_TAP/PASO5.png)
-### 6.-La librería aparecerá en Libraries y podrás usarla en tu código.
+### 6.-La librería y el archivo apareceran en Libraries y podrás usarla en tu código.
 ![Paso6](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/91adb5086b180f8b7e0be33cf513cd8e9da00872/Capturas_TAP/PASO6.png)
 
 
