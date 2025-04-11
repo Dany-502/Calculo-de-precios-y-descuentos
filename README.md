@@ -3,6 +3,7 @@
 # Indice
 - [Autores](#Autores)
 - [Explicación general](#Explicación-general)
+- [Requisitos previos](#Requisitos-previos)
 - [Explicación del codigo](#Explicación-del-codigo)
 - [Instrucciones para importar el .jar](#Instrucciones-para-importar-el-jar)
 - [Video explicativo](#Video-explicativo) 
@@ -13,7 +14,17 @@
 -- _Alonso Heredia Miguel Alberto_
 
 # Explicación general
-Libreria que ofrece conjunto de clases diseñadas para calcular precios finales en operaciones de venta, incluyendo conversión de moneda, aplicación de impuestos, descuentos porcentuales o fijos, y formateo de precios. Su proposito es ofrecer herramientas para realizar operaciones de cálculo económico, ya sea para aplicar impuestos, descuentos y realizar conversiones de moneda de manera sencilla
+Libreria que ofrece conjunto de clases diseñadas para calcular precios finales en operaciones de venta, incluyendo conversión de moneda, aplicación de impuestos, descuentos porcentuales o fijos, y formateo de precios. Su proposito es ofrecer herramientas para realizar operaciones de cálculo económico, ya sea para aplicar impuestos, descuentos y realizar conversiones de moneda de manera sencilla.
+
+# Requisitos 
+
+1.- Java JDK 8 o superior.
+
+2.- Apache Netbeans IDE.
+
+3.- Conexión a internet.
+
+4.- Agregar la libreria JSON a la libreria de calculos.
 
 # Explicación del codigo
 
