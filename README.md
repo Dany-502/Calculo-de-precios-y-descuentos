@@ -5,7 +5,7 @@
 - [Explicación general](#Explicación-general)
 - [Requisitos previos](#Requisitos-previos)
 - [Explicación del codigo](#Explicación-del-codigo)
-- [Instrucciones para importar el .jar](#Instrucciones-para-importar-el-jar)
+- [Instrucciones para importar el .jar y el JSON](#Instrucciones-para-importar-el-jar-y-el-JSON)
 - [Video explicativo](#Video-explicativo) 
 
 # Autores
