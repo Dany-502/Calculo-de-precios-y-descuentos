@@ -480,6 +480,7 @@ JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAG
 ![Paso3](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/452eb9f0da747fad675504b3c83678ce70625acc/Capturas_TAP/PASO3.png)
 ### 4.-Busca el archivo .jar y el archivo JSON que descargaste y seleccionalo.
 ![Paso4](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/42f53af457286a261fbb599948cd023542cd68b7/Capturas_TAP/PASO4.png)
+![Paso42](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/61a26443a3eea8d438933566c82a5054e86f1e7f/Capturas_TAP/PASO42.png)
 ### 5.-Haz clic en "Open".
 ![Paso5](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/562183e7e39a427eb45c7242d6e8ba53f35dd28e/Capturas_TAP/PASO5.png)
 ### 6.-La librería y el archivo apareceran en Libraries y podrás usarla en tu código.
