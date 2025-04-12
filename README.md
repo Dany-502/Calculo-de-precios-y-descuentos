@@ -484,7 +484,7 @@ JOptionPane.showMessageDialog(null, mensaje, "ERROR", JOptionPane.WARNING_MESSAG
 ### 5.-Haz clic en "Open".
 ![Paso5](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/562183e7e39a427eb45c7242d6e8ba53f35dd28e/Capturas_TAP/PASO5.png)
 ### 6.-La librería y el archivo apareceran en Libraries y podrás usarla en tu código.
-![Paso6]([https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/91adb5086b180f8b7e0be33cf513cd8e9da00872/Capturas_TAP/PASO6.png](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/a0d28f85a8ddc8a1e8d55df418ef58ffb8f2e77a/Capturas_TAP/Captura%20de%20pantalla%20(515).png))
+![Paso6](https://github.com/Dany-502/Calculo-de-precios-y-descuentos/blob/624ef583243f95d709710e25a06d9ad6da0a1558/Capturas_TAP/Captura%20de%20pantalla%20(515).png)
 
 
 # Video explicativo
